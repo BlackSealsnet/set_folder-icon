@@ -3,8 +3,8 @@
 :: Example: set_folder-icon.cmd "C:\folder.ico,0"
 
 SETLOCAL
-set VER=1.0a
-set DATA=01.12.2020
+set VER=1.0.1
+set DATA=29.01.2022
 set iconpath-index=%1
 set iconpath-index=%iconpath-index:"=%
 set scriptpath=%~dp0
