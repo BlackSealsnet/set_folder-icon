@@ -3,8 +3,8 @@
 :: Example: set_folder-icon.cmd "C:\folder.ico,0"
 
 SETLOCAL
-set VER=1.0.1
-set DATA=29.01.2022
+set VER=1.0.2
+set DATA=31.01.2022
 set iconpath-index=%1
 set iconpath-index=%iconpath-index:"=%
 set scriptpath=%~dp0
@@ -15,7 +15,7 @@ ECHO ==================================================
 ECHO Ordnersymbol Skript Ver. %ver% (%data%)
 ECHO Written by Andyt for BlackSeals.net
 ECHO Promoted development by BlackSeals.net Technology
-ECHO Copyright 2020 by BlackSeals
+ECHO Copyright 2020-2022 by BlackSeals
 ECHO ==================================================
 ECHO.
 ECHO.
